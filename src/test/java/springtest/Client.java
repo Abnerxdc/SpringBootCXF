@@ -21,7 +21,7 @@ public class Client {
         Object[] getName = client.invoke("getName", "411001");
         Object[] getCoo = client.invoke("getCoo" );
 
-        //输出调用结果
+        //输出调用结
         logger.debug("*****" + objects[0].toString());
         logger.debug("*****" + getName[0].toString());
         logger.debug("*getCoo***" + getCoo[0]);
