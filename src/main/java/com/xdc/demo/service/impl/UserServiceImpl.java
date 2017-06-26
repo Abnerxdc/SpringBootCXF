@@ -15,7 +15,7 @@ import java.util.Map;
  * 对接口类进行实现（业务类）
  */
   // targetNamespace 指向业务类所在路径   endpointInterface指向接口类所在路径
-@WebService(targetNamespace="http://service.demo.xdc.com/",endpointInterface = "com.xdc.demo.service.UserService")
+//@WebService(targetNamespace="http://service.demo.xdc.com/",endpointInterface = "com.xdc.demo.service.UserService")
 public class UserServiceImpl implements UserService {
     private Map<String, User> userMap = new HashMap<String, User>();
     private Logger logger = LoggerFactory.getLogger(this.getClass());
