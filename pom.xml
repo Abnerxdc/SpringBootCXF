@@ -28,11 +28,11 @@
         </dependency>
 
         <!-- axis 1.4 jar start -->
-        <dependency>
-            <groupId>org.apache.axis</groupId>
-            <artifactId>axis</artifactId>
-            <version>1.4</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.axis</groupId>-->
+            <!--<artifactId>axis</artifactId>-->
+            <!--<version>1.4</version>-->
+        <!--</dependency>-->
         <!--<dependency>-->
             <!--<groupId>axis</groupId>-->
             <!--<artifactId>axis-rt-soapmonitor</artifactId>-->
@@ -60,11 +60,12 @@
             <!--<artifactId>axis-jaxrpc</artifactId>-->
             <!--<version>1.4</version>-->
         <!--</dependency>-->
-        <dependency>
-            <groupId>org.apache.axis</groupId>
-            <artifactId>axis-jaxrpc</artifactId>
-            <version>1.4</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.axis</groupId>-->
+            <!--<artifactId>axis-jaxrpc</artifactId>-->
+            <!--<version>1.4</version>-->
+        <!--</dependency>-->
+
         <!--<dependency>-->
             <!--<groupId>org.apache.axis</groupId>-->
             <!--<artifactId>axis-saaj</artifactId>-->
